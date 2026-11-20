@@ -1,6 +1,7 @@
-let num = 10;
+let num = 5;
+
 let fact =1;
-for(let i=1; i<=10; i++){
+for(let i=1; i<=num; i++){
     fact*=i;
 
 }

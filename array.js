@@ -7,7 +7,7 @@ let small = numbers[0];
 
 for (let num of numbers) {
     sum += num;
-    avg = sum / 10;
+    avg = sum / numbers.length;
 
 }
 console.log("Total sum is :", sum);
